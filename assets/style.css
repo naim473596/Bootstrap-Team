@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-icons i:hover{
+    cursor: pointer;
+    color: rgb(189, 109, 122);
+}

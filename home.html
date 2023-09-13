@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap design</title>
+    <!-- Bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External css -->
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+
+    <!-- Header Section start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 ">
+        <div class="container">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+            <img src="assets/img/logo.png" width="100" alt="">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold ms-auto fs-6">
+              <li class="nav-item">
+                <a class="nav-link  active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" >About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galary.html">Galary</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Video Edition</a></li>
+                  <li><a class="dropdown-item" href="#">Facebook Marketing</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Content Creator</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More Info
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">SignIn</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Header Section end -->
+
+
+      <div class="">
+        <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-center mt-3">Hi, There</h3>
+              <h3 class="mx-5"><marquee behavior="left" class="mx-3 text-info" direction="right"> Well come to our website</marquee></h3>
+              <p class="mx-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum similique suscipit fuga numquam consequuntur aspernatur, consequatur aliquid reiciendis nihil! Culpa minima repudiandae nobis quas ducimus. Pariatur, ipsum, consequatur dolores nobis nesciunt perferendis distinctio adipisci, autem quod consectetur totam est. Odio minima exercitationem nesciunt dolore maxime perspiciatis error doloribus eveniet labore!</p>
+
+              <div class="container">
+                <div class="accordion accordion-flush border" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        First Person:
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Second Person:
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/galary1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/galary3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/galary1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+  
+      </div>
+
+
+    <!-- footer section start -->  
+    <footer>
+        <div style="background-color:#1D2434 ;">
+          <div class="container">
+              <footer>
+                  <div class="row text-white py-5">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                          <div class="row">
+                              <div class="col-lg-6 mb-3">
+                                  <div class="name-address">
+                                      <h3>Permanet Address</h3>
+                                      <p> <span> <i class="fa-solid fa-location-dot"></i></span> 125,Digpait,jamalpur Dhaka </p>
+                                      <span class="d-block py-1"><i class="fa-solid fa-phone"></i> +01234567896</span>
+                                      <span class="d-block py-2"> <i class="fa-solid fa-envelopes-bulk"> </i> mdnaimran5@gmail.com</span>
+                                      <div class="py-3">
+                                          <span class="all-icons"><i class="fa-brands fa-2x fa-twitter cursor-pointer"></i> <i class="fa-brands fa-2x fa-facebook"></i> <i class="fa-brands fa-2x fa-youtube"></i> <i class="fa-brands fa-instagram fa-2x"></i> <i class="fa-brands fa-linkedin fa-2x"></i></span>
+                                      </div>
+                                  </div>
+                              </div>
+          
+                              <div class="col-lg-6 mb-3">
+                                  <div class="link-address">
+                                      <h3>Quick Links</h3>
+                                      <ul>
+                                          <li>Themes of Use</li>
+                                          <li>Privacy Policy</li>
+                                          <li>Cookies</li>
+                                          <li>Help</li>
+                                          <li>FAQs</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+          
+          
+                      <div class="col-lg-6 col-md-12 col-sm-12 mb-3" >
+                          <div class="Newsletter">
+                              <h3>Newsletter</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quia? Et debitis corporis animi ipsam, beatae natus rem dignissimos veritatis obcaecati. Officia omnis illum autem cumque voluptatibus, culpa explicabo atque!</p>
+                              <input class="w-100 py-2" type="email" name="Email" id="footer-email" placeholder="Email goes here"><br>
+                              <input class="btn btn-success mt-3" type="button" value="Submit">
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+    <!-- footer section end -->
+
+
+
+
+
+
+    <!-- Bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
